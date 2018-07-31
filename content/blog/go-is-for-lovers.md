@@ -1,7 +1,6 @@
 +++
 categories = ["programming"]
 date = "2015-09-17T13:47:08+02:00"
-draft = true
 tags = ["go"]
 title = "RPAS Confined space inspection"
 
