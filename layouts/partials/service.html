@@ -14,7 +14,7 @@
     <div class="row">
       {{ range .Site.Data.services.content }}
       <div class="col-sm-6 col-md-4">
-        <a href="{{ .url }}">
+        <a href="{{ $.Site.BaseURL }}{{ .url }}">
           <div class="service-item">
             <div class="box">
               <img class="thumbnail img-responsive" src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
