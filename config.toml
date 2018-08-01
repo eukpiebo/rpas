@@ -25,11 +25,11 @@ theme = ""
   [[menu.footer]]
     weight = 1
     name = "ATMECO Home"
-    url = "#"
+    url = "https://atmeco.com"
   [[menu.footer]]
     weight = 2
     name = "RPAS Videos"
-    url = "#"
+    url = "https://videos.atmeco.com"
   [[menu.footer]]
     weight = 4
     name = "Blog"
