@@ -1,5 +1,6 @@
 #slider .block h1 {
     font-weight: 400;
+    font-size: 42px
 }
 #slider .btn-main {
     background: #0b416c24;
@@ -13,7 +14,7 @@
     padding-top: 80px;
 }
 #slider {
-    padding: 200px 0 50px 0;
+    padding: 200px 0 110px 0;
 }
 
 #global-header {
