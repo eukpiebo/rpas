@@ -12,6 +12,10 @@
 #slider .sliderbtn {
     padding-top: 130px;
 }
+#slider {
+    background: url(../img/slider-bg.jpg) repeat-x;
+    padding: 200px 0 125px 0;
+}
 
 #global-header {
     background: url("../img/slider-bg.jpg") no-repeat;
@@ -234,7 +238,7 @@
     background: url("../img/RPAS/Flare_Tip_Model_cropped.jpg") no-repeat;
     background-size: cover;
     padding-top: 150px;
-    padding-bottom: 107px;
+    padding-bottom: 27px;
     position: relative;
     background-attachment: fixed;
 }

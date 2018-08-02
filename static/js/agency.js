@@ -16,7 +16,7 @@ $(document).ready(function(){
   // Navigation change on scroll
   //if (this.hash || window.location.pathname == "/") {
   if (window.location.pathname == "/rpas/" || window.location.pathname == "/") {
-    var maxOffset = 300;
+    var maxOffset = 50;
     $(window).scroll(function() {
       if ($(window).scrollTop() >= maxOffset) {
         $('.navbar-default').addClass('navbar-shrink');
