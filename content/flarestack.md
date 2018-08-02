@@ -1,6 +1,6 @@
 +++
 title = "Flare Stack Inspections"
-id = "flare_stack"
+id = "service_flarestack"
 tag = "flarehdr"
 
 +++

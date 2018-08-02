@@ -1,6 +1,6 @@
 +++
-title = "Biogas & Bio-Reactor"
-id = "biogas"
+title = "Biogas & Bio-Reactor Methane Emissions"
+id = "service_biogas"
 tag = "bio"
 
 +++
