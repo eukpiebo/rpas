@@ -6,6 +6,9 @@
     border-color: #DEDEDE;
     border-style: solid;
 }
+#slider .btn-main:hover {
+    background: #0b406c65;
+}
 
 #global-header {
     background: url("../img/slider-bg.jpg") no-repeat;
