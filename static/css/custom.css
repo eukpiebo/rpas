@@ -7,7 +7,10 @@
     border-style: solid;
 }
 #slider .btn-main:hover {
-    background: #0b406c65;
+    background: #42a6e073;
+}
+#slider .sliderbtn {
+    padding-top: 130px;
 }
 
 #global-header {
@@ -156,12 +159,16 @@
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: rgba(255, 255, 255, 0.185);
-        padding-right: 60px;
     }
     
     .navbar-default .navbar-header .navbar-brand {

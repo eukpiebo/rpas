@@ -1,6 +1,6 @@
 <!-- Header Start -->
       <!-- header Nav Start -->
-      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -16,13 +16,17 @@
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-center">
               <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
               {{ range .Site.Menus.header }}
               <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
               {{ end }}
               
               {{ range .Site.Menus.videosite }}
+              <li><a href="{{ .URL }}/" target="Blank">{{ .Name }}</a></li>
+              {{ end }}
+
+              {{ range .Site.Menus.atmecohome }}
               <li><a href="{{ .URL }}/" target="Blank">{{ .Name }}</a></li>
               {{ end }}
             </ul>

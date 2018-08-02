@@ -4,10 +4,14 @@ languageCode = "en-us"
 theme = ""
 
 [menu]
-
+  
+  [[menu.atmecohome]]
+    weight = 1
+    name = "ATMECO Home"
+    url = "https://atmeco.com"
   [[menu.videosite]]
     weight = 2
-    name = "RPAS Videos"
+    name = "RPAS Service Videos"
     url = "https://videos.atmeco.com"
   [[menu.header]]
     weight = 3
@@ -15,12 +19,12 @@ theme = ""
     url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Services"
-    url = "/services"
-  [[menu.header]]
-    weight = 5
     name = "About Us"
     url = "/about-us"
+  [[menu.header]]
+    weight = 5
+    name = "Services"
+    url = "/services"
 
   [[menu.footer]]
     weight = 1
