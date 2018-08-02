@@ -1,6 +1,11 @@
 #slider .block h1 {
     font-weight: 400;
 }
+#slider .btn-main {
+    background: #0b416c24;
+    border-color: #DEDEDE;
+    border-style: solid;
+}
 
 #global-header {
     background: url("../img/slider-bg.jpg") no-repeat;
